@@ -11,7 +11,7 @@ const ItemDragMe = ({ index, item, handleDragStart }: ItemDragMeProps) => {
   return (
     <button
       className={[
-        "flex flex-col items-center justify-center w-20 h-20 p-2 text-3xl font-bold text-white bg-black rounded-full",
+        "flex flex-col items-center justify-center w-20 h-20 p-2 text-3xl font-bold text-white rounded-full",
         item.isDisable
           ? "bg-red-200 cursor-not-allowed"
           : "bg-amber-500 cursor-move",
